@@ -8,12 +8,12 @@ ____________________________________________
 ##Installation
 
 ####PHP-installation
-1.Download the zip-file and unpack it for preperations.
-2. In the index.php, insert the MYSQL database information, this includes the database server IP, username for user with the right permissions, the password for the user, and finally the name of the database.
-3. Further down, the actual query to the database is specified. Be sure to select all the table rows you need.
+ - Download the zip-file and unpack it for preperations.
+ - In the index.php, insert the MYSQL database information, this includes the database server IP, username for user with the right permissions, the password for the user, and finally the name of the database.
+ - Further down, the actual query to the database is specified. Be sure to select all the table rows you need.
 
 ####JavaScript-installation
-1.In the "Maps_api.js" file, you will find the "roadAtlasStyles", which speciefies how your map will look when i has been embedded, documentation for this can be found [here](https://developers.google.com/maps/documentation/javascript/styling)
-2.The following variable "mapOptions", a the "center" selector specifies the center of the map, THIS IS A LATLNG!
-3.The "getJSON" function need to get the specific URI for which "markers.json" the embeded map needs to parse.
-4.Finally the last bit of JavaScript specifies the content of a "contentBox", that appears when the pointers are clicked. This is a simple markup, echoed out so this can look just like you want it, and it can be styled from "style.css".
+ - In the "Maps_api.js" file, you will find the "roadAtlasStyles", which speciefies how your map will look when i has been embedded, documentation for this can be found [here](https://developers.google.com/maps/documentation/javascript/styling)
+ - The following variable "mapOptions", a the "center" selector specifies the center of the map, THIS IS A LATLNG!
+ - The "getJSON" function need to get the specific URI for which "markers.json" the embeded map needs to parse.
+ - Finally the last bit of JavaScript specifies the content of a "contentBox", that appears when the pointers are clicked. This is a simple markup, echoed out so this can look just like you want it, and it can be styled from "style.css".
