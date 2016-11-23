@@ -1,3 +1,5 @@
+#Please be aware that this project is far from finished! 
+
 # MapsManagementSystem
 Small backend system for managing multiple pointers on a Google Maps for embedding.
 
